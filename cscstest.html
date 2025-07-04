@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Question Parser</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    #fileInput {
+      margin-bottom: 20px;
+    }
+    .question-container {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      background: #fff;
+    }
+    .question-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .options ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .options li {
+      margin-bottom: 5px;
+    }
+    .correct-answer {
+      margin-top: 10px;
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>HS&E Quiz Question Parser</h1>
+  <input type="file" id="fileInput" accept=".txt" />
+  <div id="output"></div>
+
+  <script>
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const content = e.target.result;
+        const questions = parseQuestions(content);
+        displayQuestions(questions);
+      };
+      reader.readAsText(file);
+    });
+
+    function parseQuestions(text) {
+      const lines = text.split('\n');
+      const questions = [];
+      let currentQuestion = null;
+
+      for (let line of lines) {
+        line = line.trim();
+
+        // Check if it's a question line
+        if (line.startsWith("Question")) {
+          if (currentQuestion) {
+            questions.push(currentQuestion);
+          }
+          currentQuestion = {
+            question: "",
+            options: [],
+            correctAnswer: ""
+          };
+
+          // Extract question text
+          currentQuestion.question = line.replace("Question", "").trim();
+        }
+
+        // Check for options A, B, C, D, etc.
+        else if (line.startsWith("A)") || line.startsWith("B)") || line.startsWith("C)") || line.startsWith("D)")) {
+          const optionText = line.replace(/^[A-D]\)/, "").trim();
+          currentQuestion.options.push(optionText);
+        }
+
+        // Check for correct answer
+        else if (line.startsWith("The correct answer is ")) {
+          const answer = line.replace("The correct answer is ", "").trim().toUpperCase();
+          currentQuestion.correctAnswer = answer;
+        }
+      }
+
+      if (currentQuestion) {
+        questions.push(currentQuestion);
+      }
+
+      return questions;
+    }
+
+    function displayQuestions(questions) {
+      const outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = "";
+
+      questions.forEach((q, index) => {
+        const container = document.createElement('div');
+        container.className = 'question-container';
+
+        const title = document.createElement('div');
+        title.className = 'question-title';
+        title.textContent = `Question ${index + 1}: ${q.question}`;
+        container.appendChild(title);
+
+        const optionsList = document.createElement('div');
+        optionsList.className = 'options';
+
+        q.options.forEach((option, i) => {
+          const li = document.createElement('li');
+          li.textContent = `${String.fromCharCode(65 + i)}) ${option}`;
+          optionsList.appendChild(li);
+        });
+
+        container.appendChild(optionsList);
+
+        const correct = document.createElement('div');
+        correct.className = 'correct-answer';
+        correct.textContent = `Correct Answer: ${q.correctAnswer}`;
+        container.appendChild(correct);
+
+        outputDiv.appendChild(container);
+      });
+    }
+  </script>
+</body>
+</html>
