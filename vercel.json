@@ -6,14 +6,10 @@
       "use": "@vercel/static"
     }
   ],
-  "output": ".next",
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/",
+      "dest": "index.html"
     }
-  ],
-  "files": {
-    "**/*": ["**/*"]
-  }
+  ]
 }
