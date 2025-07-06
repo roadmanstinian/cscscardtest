@@ -41,23 +41,32 @@
   <div id="output"></div>
 
   <script>
-    // Automatically fetch x.txt from the same directory when page loads
+    // Simulate the content of x.txt as a hardcoded string
+    const xTxtContent = `
+Question 1: What is the capital of France?
+A) London
+B) Paris
+C) Berlin
+D) Madrid
+The correct answer is B
+
+Question 2: Which planet is known as the Red Planet?
+A) Earth
+B) Venus
+C) Mars
+D) Jupiter
+The correct answer is C
+`;
+
+    // Automatically load and parse the hardcoded string when the page loads
     window.onload = function () {
-      fetch('/x.txt')  // This works if x.txt is in the root
-        .then(response => {
-          if (!response.ok) {
-            throw new Error("Could not find x.txt");
-          }
-          return response.text();
-        })
-        .then(content => {
-          const questions = parseQuestions(content);
-          displayQuestions(questions);
-        })
-        .catch(error => {
-          document.getElementById('output').innerHTML = 
-            `<p style="color:red;">Error loading file: ${error.message}</p>`;
-        });
+      try {
+        const questions = parseQuestions(xTxtContent);
+        displayQuestions(questions);
+      } catch (error) {
+        document.getElementById('output').innerHTML = 
+          `<p style="color:red;">Error parsing quiz data: ${error.message}</p>`;
+      }
     };
 
     function parseQuestions(text) {
