@@ -31,7 +31,7 @@ Direction I want to go with it:
 - Weekly Leaderboard
 - monthly leaderboard
 - Sponsership by the industry
-- Android/IoS app (pref. f-droid)
+- Android/IOS app (pref. f-droid)
 - Audio only (to help mental connection)
 - Diagram only (to help build mental connection)
 - Hand Gesticulation only (I have no idea how that can be assessed)
