@@ -10,8 +10,17 @@ over 50minutes then you can apply for CSCS card
 I made this because it is another tool to get a perfect grade.
 health and safety awareness is helpful for any kind of physical craft.
 
-I honestly wish I had full confidence when working
-on DIY projects as a teenager so I didn't risk
-taking out an eye (They really should've drilled 
-this knowledge into us at school, this is obviously
-more important then listening to ozymandias masturbate his ego)
+Direction I want to go with it:
+- Score out of how many completed on a counter
+- Stopwatch score
+- Timer for all questions
+- Timer for that individual question in test conditions
+- Leaderboard for speedruns
+- Leaderboard for speedruns for that specific question
+- Diagram submission function for questions under a "hint" spoiler
+- Nmemonic Submission function for questions under a "hint" spoiler
+- Daily Leaderboard
+- Weekly Leaderboard
+- monthly leaderboard
+- Sponsership by the industry
+- Android/IoS app (pref. f-droid)
