@@ -8,7 +8,7 @@ If you manage to get 45/50 in the exam (90%)
 over 50minutes then you can apply for CSCS card
 
 I made this because it is another tool to get a perfect grade.
-As someone diagnosed with dyslexia I have well practised in using
+As someone diagnosed with dyslexia I am well practised in using
 unconvential methods to memorise information for exams. The functions
 I wish to implement below utilise some of those methods to maximise
 memorisation through the paradigm of maximising connections of different
