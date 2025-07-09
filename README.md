@@ -23,6 +23,13 @@ Direction I want to go with it:
 - Stopwatch score
 - Timer for all questions
 - Timer for that individual question in test conditions
+- Stopwatch score for each question (with a toggle)
+- Competitive rounds completing the test (similar to typeracer.com but with stimmy sfx and graphics) (so you can get your friendship group to do the test together and work together as a team to complete the exam - good idea if you're ADHD and typically unmotivated by low-physical-intensity rote-learning tasks such as completing a test like this)
+- Stimmy sounds and graphics in general to gamify the experience
+- Sidebar with subway surfer footage
+- Minecraft interpretation of the test (very far in the future)
+- AI generated of absurd situations in YT shorts/reels/tikitokis for the most attention deficient people to learn the questions. (perhaps reccomended for the questions you got wrong).
+- Absurd scenarios analoguous to the questions involved where the right answer is what saves the scenario from occuring
 - Tests by question catagory
 - Leaderboard for speedruns
 - Leaderboard for speedruns for each question catagory
