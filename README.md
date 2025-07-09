@@ -14,7 +14,7 @@ I wish to implement below utilise some of those methods to maximise
 memorisation through the paradigm of maximising connections of different
 parts of the brain on one topic area, and also gameifying the process. 
 
-I hope this is laying the groundwork for learning essential skills (e.g. not dying) in a manner which is for the man who sits there and daydreams when faced with a pen and highlighter. Perhaps, at a stretch, making the possibility of someone with the lowest ability to learn to obtain a CSCS card through integrating every single region of the brain in learning.
+I hope this is laying the groundwork for learning essential skills (e.g. not getting yourself or others maimed or unalived) in a manner which is for the man who sits there and daydreams when faced with a pen and highlighter. Perhaps, at a stretch, making the possibility of someone with the lowest ability to learn to obtain a CSCS card through integrating every single region of the brain in learning.
 
 
 
