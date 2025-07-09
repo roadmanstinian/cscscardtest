@@ -23,7 +23,9 @@ Direction I want to go with it:
 - Stopwatch score
 - Timer for all questions
 - Timer for that individual question in test conditions
+- Tests by question catagory
 - Leaderboard for speedruns
+- Leaderboard for speedruns for each question catagory
 - Leaderboard for speedruns for that specific question
 - Diagram submission function for questions under a "hint" spoiler
 - Nmemonic Submission function for questions under a "hint" spoiler
