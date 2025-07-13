@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    .question-container {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      background: #fff;
+    }
+    .question-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .options ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .options li {
+      margin-bottom: 5px;
+    }
+    .correct-answer {
+      margin-top: 10px;
+      color: green;
+      font-weight: bold;
+    }
+    .incorrect-answer {
+      margin-top: 10px;
+      color: red;
+      font-weight: bold;
+    }
+    .button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>HS&E Quiz Question Parser</h1>
+  <div id="quiz"></div>
+
+  <script>
+    // Hardcoded quiz content
+    const xTxtContent = `
+HS&E test download for operatives and specialists
+General responsibilities
+Question
+Who is responsible for reporting any unsafe
+conditions on site?
+A) The site manager only
+B) The client
+C) Health and Safety Executive (HSE)
+inspectors
+D) Everyone on site
+The correct answer is D.
+1
+HS&E test download for operatives and specialists
+General responsibilities
+Question
+During site induction you do not understand
+something the presenter says. What should you
+do?
+A) Attend another site induction
+B) Ask the presenter to explain the point again
+C) Guess what the presenter was trying to tell
+you
+D) Wait until the end then ask someone else to
+explain
+The correct answer is B.
+2`;
+
+    let currentQuestionIndex = 0;
+    let userAnswers = [];
+
+    function parseQuestions(text) {
+      const lines = text.split('\n');
+      const questions = [];
+      let currentQuestion = null;
+
+      for (let line of lines) {
+        line = line.trim();
+
+        if (line.startsWith("Question")) {
+          if (currentQuestion) {
+            questions.push(currentQuestion);
+          }
+          currentQuestion = {
+            question: "",
+            options: [],
+            correctAnswer: ""
+          };
+          currentQuestion.question = line.replace("Question", "").trim();
+        } else if (line.startsWith("A)") || line.startsWith("B)") || line.startsWith("C)") || line.startsWith("D)")) {
+          const optionText = line.replace(/^[A-D]\)/, "").trim();
+          currentQuestion.options.push(optionText);
+        } else if (line.startsWith("The correct answer is ")) {
+          const answer = line.replace("The correct answer is ", "").trim().toUpperCase();
+          currentQuestion.correctAnswer = answer;
+        }
+      }
+
+      if (currentQuestion) {
+        questions.push(currentQuestion);
+      }
+
+      return questions;
+    }
+
+    function displayQuestion(index) {
+      const quizDiv = document.getElementById('quiz');
+      quizDiv.innerHTML = "";
+
+      const question = questions[index];
+
+      const container = document.createElement('div');
+      container.className = 'question-container';
+
+      const title = document.createElement('div');
+      title.className = 'question-title';
+      title.textContent = `Question ${index + 1}: ${question.question}`;
+      container.appendChild(title);
+
+      const optionsList = document.createElement('ul');
+      optionsList.className = 'options';
+
+      question.options.forEach((option, i) => {
+        const li = document.createElement('li');
+        const input = document.createElement('input');
+        input.type = 'radio';
+        input.name = 'answer';
+        input.value = String.fromCharCode(65 + i);
+        input.id = `option-${i}`;
+
+        const label = document.createElement('label');
+        label.htmlFor = `option-${i}`;
+        label.textContent = `${String.fromCharCode(65 + i)}) ${option}`;
+
+        li.appendChild(input);
+        li.appendChild(label);
+        optionsList.appendChild(li);
+      });
+
+      container.appendChild(optionsList);
+
+      const button = document.createElement('button');
+      button.className = 'button';
+      button.textContent = 'Check Answer';
+      button.onclick = () => checkAnswer(index, question, button);
+      container.appendChild(button);
+
+      quizDiv.appendChild(container);
+    }
+
+    function checkAnswer(index, question, button) {
+      const selectedOption = document.querySelector(`input[name="answer"]:checked`);
+      if (!selectedOption) {
+        alert("Please select an answer.");
+        return;
+      }
+
+      const selectedLetter = selectedOption.value;
+      const isCorrect = selectedLetter === question.correctAnswer;
+
+      const result = document.createElement('div');
+      result.className = isCorrect ? 'correct-answer' : 'incorrect-answer';
+      result.textContent = isCorrect ? "Correct!" : `Incorrect. The correct answer is ${question.correctAnswer}`;
+
+      const quizDiv = document.getElementById('quiz');
+      quizDiv.appendChild(result);
+
+      // Store user answer
+      userAnswers[index] = { selected: selectedLetter, correct: question.correctAnswer };
+
+      // Disable the button after checking
+      button.disabled = true;
+
+      // Show next question button
+      const nextButton = document.createElement('button');
+      nextButton.className = 'button';
+      nextButton.textContent = 'Next Question';
+      nextButton.onclick = () => {
+        if (index < questions.length - 1) {
+          currentQuestionIndex++;
+          displayQuestion(currentQuestionIndex);
+        } else {
+          showResults();
+        }
+      };
+      quizDiv.appendChild(nextButton);
+    }
+
+    function showResults() {
+      const quizDiv = document.getElementById('quiz');
+      quizDiv.innerHTML = `<h2>Quiz Results</h2>`;
+      userAnswers.forEach((ans, i) => {
+        const div = document.createElement('div');
+        div.textContent = `Question ${i + 1}: ${ans.selected} ${ans.selected === ans.correct ? '✅ Correct' : '❌ Incorrect (Correct: ' + ans.correct + ')'}`;
+        quizDiv.appendChild(div);
+      });
+    }
+
+    // Initialize
+    const questions = parseQuestions(xTxtContent);
+    displayQuestion(currentQuestionIndex);
+  </script>
+</body>
+</html>
