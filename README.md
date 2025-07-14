@@ -1,4 +1,6 @@
-![ezgif-25e680771347d6](https://github.com/user-attachments/assets/294ef6f2-634c-46e3-bf49-2c3367d3d35d)
+
+![ezgif-22f07d30090bb4](https://github.com/user-attachments/assets/2d7c2695-2a67-4314-9f01-21a14f75dea5)
+
 
 
 𝙃𝙞
