@@ -1,51 +1,83 @@
-Hi
+𝘏𝘪
 
-This is CITB HS&E book (CSCS card test) PDF 
-parsed into a multiple choice question quiz
+𝘛𝘩𝘪𝘴 𝘪𝘴 𝘊𝘐𝘛𝘉 𝘏𝘚&𝘌 𝘣𝘰𝘰𝘬 (𝘊𝘚𝘊𝘚 𝘤𝘢𝘳𝘥 𝘵𝘦𝘴𝘵) 𝘗𝘋𝘍 𝘱𝘢𝘳𝘴𝘦𝘥 𝘪𝘯𝘵𝘰 𝘢 𝘮𝘶𝘭𝘵𝘪𝘱𝘭𝘦 𝘤𝘩𝘰𝘪𝘤𝘦 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯 𝘲𝘶𝘪𝘻
 
-There are 461 questions in this question bank.
-If you manage to get 45/50 in the exam (90%)
-over 50minutes then you can apply for CSCS card
+𝘛𝘩𝘦𝘳𝘦 𝘢𝘳𝘦 461 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯𝘴 𝘪𝘯 𝘵𝘩𝘪𝘴 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯 𝘣𝘢𝘯𝘬. 𝘐𝘧 𝘺𝘰𝘶 𝘮𝘢𝘯𝘢𝘨𝘦 𝘵𝘰 𝘨𝘦𝘵 45/50 𝘪𝘯 𝘵𝘩𝘦 𝘦𝘹𝘢𝘮 (90%) 𝘰𝘷𝘦𝘳 50𝘮𝘪𝘯𝘶𝘵𝘦𝘴 𝘵𝘩𝘦𝘯 𝘺𝘰𝘶 𝘤𝘢𝘯 𝘢𝘱𝘱𝘭𝘺 𝘧𝘰𝘳 𝘊𝘚𝘊𝘚 𝘤𝘢𝘳𝘥
 
-I made this because it is another tool to get a perfect grade.
-As someone diagnosed with dyslexia I am well practised in using
-unconvential methods to memorise information for exams. The functions
-I wish to implement below utilise some of those methods to maximise
-memorisation through the paradigm of maximising connections of different
-parts of the brain on one topic area, and also gameifying the process. 
+𝘐 𝘮𝘢𝘥𝘦 𝘵𝘩𝘪𝘴 𝘣𝘦𝘤𝘢𝘶𝘴𝘦 𝘪𝘵 𝘪𝘴 𝘢𝘯𝘰𝘵𝘩𝘦𝘳 𝘵𝘰𝘰𝘭 𝘵𝘰 𝘨𝘦𝘵 𝘢 𝘱𝘦𝘳𝘧𝘦𝘤𝘵 𝘨𝘳𝘢𝘥𝘦. 𝘈𝘴 𝘴𝘰𝘮𝘦𝘰𝘯𝘦 𝘥𝘪𝘢𝘨𝘯𝘰𝘴𝘦𝘥 𝘸𝘪𝘵𝘩 𝘥𝘺𝘴𝘭𝘦𝘹𝘪𝘢 𝘐 𝘢𝘮 𝘸𝘦𝘭𝘭 𝘱𝘳𝘢𝘤𝘵𝘪𝘴𝘦𝘥 𝘪𝘯 𝘶𝘴𝘪𝘯𝘨 𝘶𝘯𝘤𝘰𝘯𝘷𝘦𝘯𝘵𝘪𝘢𝘭 𝘮𝘦𝘵𝘩𝘰𝘥𝘴 𝘵𝘰 𝘮𝘦𝘮𝘰𝘳𝘪𝘴𝘦 𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯 𝘧𝘰𝘳 𝘦𝘹𝘢𝘮𝘴. 𝘛𝘩𝘦 𝘧𝘶𝘯𝘤𝘵𝘪𝘰𝘯𝘴 𝘐 𝘸𝘪𝘴𝘩 𝘵𝘰 𝘪𝘮𝘱𝘭𝘦𝘮𝘦𝘯𝘵 𝘣𝘦𝘭𝘰𝘸 𝘶𝘵𝘪𝘭𝘪𝘴𝘦 𝘴𝘰𝘮𝘦 𝘰𝘧 𝘵𝘩𝘰𝘴𝘦 𝘮𝘦𝘵𝘩𝘰𝘥𝘴 𝘵𝘰 𝘮𝘢𝘹𝘪𝘮𝘪𝘴𝘦 𝘮𝘦𝘮𝘰𝘳𝘪𝘴𝘢𝘵𝘪𝘰𝘯 𝘵𝘩𝘳𝘰𝘶𝘨𝘩 𝘵𝘩𝘦 𝘱𝘢𝘳𝘢𝘥𝘪𝘨𝘮 𝘰𝘧 𝘮𝘢𝘹𝘪𝘮𝘪𝘴𝘪𝘯𝘨 𝘤𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘰𝘯𝘴 𝘰𝘧 𝘥𝘪𝘧𝘧𝘦𝘳𝘦𝘯𝘵 𝘱𝘢𝘳𝘵𝘴 𝘰𝘧 𝘵𝘩𝘦 𝘣𝘳𝘢𝘪𝘯 𝘰𝘯 𝘰𝘯𝘦 𝘵𝘰𝘱𝘪𝘤 𝘢𝘳𝘦𝘢, 𝘢𝘯𝘥 𝘢𝘭𝘴𝘰 𝘨𝘢𝘮𝘦𝘪𝘧𝘺𝘪𝘯𝘨 𝘵𝘩𝘦 𝘱𝘳𝘰𝘤𝘦𝘴𝘴.
 
-I hope this is laying the groundwork for learning essential skills (e.g. not getting yourself or others maimed or unalived) in a manner which is for the man who sits there and daydreams when faced with a pen and highlighter. Perhaps, at a stretch, making the possibility of someone with the lowest ability to learn to obtain a CSCS card through integrating every single region of the brain in learning.
+𝘐 𝘩𝘰𝘱𝘦 𝘵𝘩𝘪𝘴 𝘪𝘴 𝘭𝘢𝘺𝘪𝘯𝘨 𝘵𝘩𝘦 𝘨𝘳𝘰𝘶𝘯𝘥𝘸𝘰𝘳𝘬 𝘧𝘰𝘳 𝘭𝘦𝘢𝘳𝘯𝘪𝘯𝘨 𝘦𝘴𝘴𝘦𝘯𝘵𝘪𝘢𝘭 𝘴𝘬𝘪𝘭𝘭𝘴 (𝘦.𝘨. 𝘯𝘰𝘵 𝘨𝘦𝘵𝘵𝘪𝘯𝘨 𝘺𝘰𝘶𝘳𝘴𝘦𝘭𝘧 𝘰𝘳 𝘰𝘵𝘩𝘦𝘳𝘴 𝘮𝘢𝘪𝘮𝘦𝘥 𝘰𝘳 𝘶𝘯𝘢𝘭𝘪𝘷𝘦𝘥) 𝘪𝘯 𝘢 𝘮𝘢𝘯𝘯𝘦𝘳 𝘸𝘩𝘪𝘤𝘩 𝘪𝘴 𝘧𝘰𝘳 𝘵𝘩𝘦 𝘮𝘢𝘯 𝘸𝘩𝘰 𝘴𝘪𝘵𝘴 𝘵𝘩𝘦𝘳𝘦 𝘢𝘯𝘥 𝘥𝘢𝘺𝘥𝘳𝘦𝘢𝘮𝘴 𝘸𝘩𝘦𝘯 𝘧𝘢𝘤𝘦𝘥 𝘸𝘪𝘵𝘩 𝘢 𝘱𝘦𝘯 𝘢𝘯𝘥 𝘩𝘪𝘨𝘩𝘭𝘪𝘨𝘩𝘵𝘦𝘳. 𝘗𝘦𝘳𝘩𝘢𝘱𝘴, 𝘢𝘵 𝘢 𝘴𝘵𝘳𝘦𝘵𝘤𝘩, 𝘮𝘢𝘬𝘪𝘯𝘨 𝘵𝘩𝘦 𝘱𝘰𝘴𝘴𝘪𝘣𝘪𝘭𝘪𝘵𝘺 𝘰𝘧 𝘴𝘰𝘮𝘦𝘰𝘯𝘦 𝘸𝘪𝘵𝘩 𝘵𝘩𝘦 𝘭𝘰𝘸𝘦𝘴𝘵 𝘢𝘣𝘪𝘭𝘪𝘵𝘺 𝘵𝘰 𝘭𝘦𝘢𝘳𝘯 𝘵𝘰 𝘰𝘣𝘵𝘢𝘪𝘯 𝘢 𝘊𝘚𝘊𝘚 𝘤𝘢𝘳𝘥 𝘵𝘩𝘳𝘰𝘶𝘨𝘩 𝘪𝘯𝘵𝘦𝘨𝘳𝘢𝘵𝘪𝘯𝘨 𝘦𝘷𝘦𝘳𝘺 𝘴𝘪𝘯𝘨𝘭𝘦 𝘳𝘦𝘨𝘪𝘰𝘯 𝘰𝘧 𝘵𝘩𝘦 𝘣𝘳𝘢𝘪𝘯 𝘪𝘯 𝘭𝘦𝘢𝘳𝘯𝘪𝘯𝘨.
 
+𝘋𝘪𝘳𝘦𝘤𝘵𝘪𝘰𝘯 𝘐 𝘸𝘢𝘯𝘵 𝘵𝘰 𝘨𝘰 𝘸𝘪𝘵𝘩 𝘪𝘵:
 
+𝘚𝘤𝘰𝘳𝘦 𝘰𝘶𝘵 𝘰𝘧 𝘩𝘰𝘸 𝘮𝘢𝘯𝘺 𝘤𝘰𝘮𝘱𝘭𝘦𝘵𝘦𝘥 𝘰𝘯 𝘢 𝘤𝘰𝘶𝘯𝘵𝘦𝘳
+𝘚𝘵𝘰𝘱𝘸𝘢𝘵𝘤𝘩 𝘴𝘤𝘰𝘳𝘦
+𝘛𝘪𝘮𝘦𝘳 𝘧𝘰𝘳 𝘢𝘭𝘭 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯𝘴
+𝘛𝘪𝘮𝘦𝘳 𝘧𝘰𝘳 𝘵𝘩𝘢𝘵 𝘪𝘯𝘥𝘪𝘷𝘪𝘥𝘶𝘢𝘭 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯 𝘪𝘯 𝘵𝘦𝘴𝘵 𝘤𝘰𝘯𝘥𝘪𝘵𝘪𝘰𝘯𝘴
+𝘚𝘵𝘰𝘱𝘸𝘢𝘵𝘤𝘩 𝘴𝘤𝘰𝘳𝘦 𝘧𝘰𝘳 𝘦𝘢𝘤𝘩 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯 (𝘸𝘪𝘵𝘩 𝘢 𝘵𝘰𝘨𝘨𝘭𝘦)
+𝘊𝘰𝘮𝘱𝘦𝘵𝘪𝘵𝘪𝘷𝘦 𝘳𝘰𝘶𝘯𝘥𝘴 𝘤𝘰𝘮𝘱𝘭𝘦𝘵𝘪𝘯𝘨 𝘵𝘩𝘦 𝘵𝘦𝘴𝘵 (𝘴𝘪𝘮𝘪𝘭𝘢𝘳 𝘵𝘰 𝘵𝘺𝘱𝘦𝘳𝘢𝘤𝘦𝘳.𝘤𝘰𝘮 𝘣𝘶𝘵 𝘸𝘪𝘵𝘩 𝘴𝘵𝘪𝘮𝘮𝘺 𝘴𝘧𝘹 𝘢𝘯𝘥 𝘨𝘳𝘢𝘱𝘩𝘪𝘤𝘴) (𝘴𝘰 𝘺𝘰𝘶 𝘤𝘢𝘯 𝘨𝘦𝘵 𝘺𝘰𝘶𝘳 𝘧𝘳𝘪𝘦𝘯𝘥𝘴𝘩𝘪𝘱 𝘨𝘳𝘰𝘶𝘱 𝘵𝘰 𝘥𝘰 𝘵𝘩𝘦 𝘵𝘦𝘴𝘵 𝘵𝘰𝘨𝘦𝘵𝘩𝘦𝘳 𝘢𝘯𝘥 𝘸𝘰𝘳𝘬 𝘵𝘰𝘨𝘦𝘵𝘩𝘦𝘳 𝘢𝘴 𝘢 𝘵𝘦𝘢𝘮 𝘵𝘰 𝘤𝘰𝘮𝘱𝘭𝘦𝘵𝘦 𝘵𝘩𝘦 𝘦𝘹𝘢𝘮 - 𝘨𝘰𝘰𝘥 𝘪𝘥𝘦𝘢 𝘪𝘧 𝘺𝘰𝘶'𝘳𝘦 𝘈𝘋𝘏𝘋 𝘢𝘯𝘥 𝘵𝘺𝘱𝘪𝘤𝘢𝘭𝘭𝘺 𝘶𝘯𝘮𝘰𝘵𝘪𝘷𝘢𝘵𝘦𝘥 𝘣𝘺 𝘭𝘰𝘸-𝘱𝘩𝘺𝘴𝘪𝘤𝘢𝘭-𝘪𝘯𝘵𝘦𝘯𝘴𝘪𝘵𝘺 𝘳𝘰𝘵𝘦-𝘭𝘦𝘢𝘳𝘯𝘪𝘯𝘨 𝘵𝘢𝘴𝘬𝘴 𝘴𝘶𝘤𝘩 𝘢𝘴 𝘤𝘰𝘮𝘱𝘭𝘦𝘵𝘪𝘯𝘨 𝘢 𝘵𝘦𝘴𝘵 𝘭𝘪𝘬𝘦 𝘵𝘩𝘪𝘴)
+𝘚𝘵𝘪𝘮𝘮𝘺 𝘴𝘰𝘶𝘯𝘥𝘴 𝘢𝘯𝘥 𝘨𝘳𝘢𝘱𝘩𝘪𝘤𝘴 𝘪𝘯 𝘨𝘦𝘯𝘦𝘳𝘢𝘭 𝘵𝘰 𝘨𝘢𝘮𝘪𝘧𝘺 𝘵𝘩𝘦 𝘦𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦
+𝘚𝘪𝘥𝘦𝘣𝘢𝘳 𝘸𝘪𝘵𝘩 𝘴𝘶𝘣𝘸𝘢𝘺 𝘴𝘶𝘳𝘧𝘦𝘳 𝘧𝘰𝘰𝘵𝘢𝘨𝘦
+𝘔𝘪𝘯𝘦𝘤𝘳𝘢𝘧𝘵 𝘪𝘯𝘵𝘦𝘳𝘱𝘳𝘦𝘵𝘢𝘵𝘪𝘰𝘯 𝘰𝘧 𝘵𝘩𝘦 𝘵𝘦𝘴𝘵 (𝘷𝘦𝘳𝘺 𝘧𝘢𝘳 𝘪𝘯 𝘵𝘩𝘦 𝘧𝘶𝘵𝘶𝘳𝘦)
+𝘈𝘐 𝘨𝘦𝘯𝘦𝘳𝘢𝘵𝘦𝘥 𝘰𝘧 𝘢𝘣𝘴𝘶𝘳𝘥 𝘴𝘪𝘵𝘶𝘢𝘵𝘪𝘰𝘯𝘴 𝘪𝘯 𝘠𝘛 𝘴𝘩𝘰𝘳𝘵𝘴/𝘳𝘦𝘦𝘭𝘴/𝘵𝘪𝘬𝘪𝘵𝘰𝘬𝘪𝘴 𝘧𝘰𝘳 𝘵𝘩𝘦 𝘮𝘰𝘴𝘵 𝘢𝘵𝘵𝘦𝘯𝘵𝘪𝘰𝘯 𝘥𝘦𝘧𝘪𝘤𝘪𝘦𝘯𝘵 𝘱𝘦𝘰𝘱𝘭𝘦 𝘵𝘰 𝘭𝘦𝘢𝘳𝘯 𝘵𝘩𝘦 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯𝘴. (𝘱𝘦𝘳𝘩𝘢𝘱𝘴 𝘳𝘦𝘤𝘤𝘰𝘮𝘦𝘯𝘥𝘦𝘥 𝘧𝘰𝘳 𝘵𝘩𝘦 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯𝘴 𝘺𝘰𝘶 𝘨𝘰𝘵 𝘸𝘳𝘰𝘯𝘨).
+𝘈𝘣𝘴𝘶𝘳𝘥 𝘴𝘤𝘦𝘯𝘢𝘳𝘪𝘰𝘴 𝘢𝘯𝘢𝘭𝘰𝘨𝘶𝘰𝘶𝘴 𝘵𝘰 𝘵𝘩𝘦 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯𝘴 𝘪𝘯𝘷𝘰𝘭𝘷𝘦𝘥 𝘸𝘩𝘦𝘳𝘦 𝘵𝘩𝘦 𝘳𝘪𝘨𝘩𝘵 𝘢𝘯𝘴𝘸𝘦𝘳 𝘪𝘴 𝘸𝘩𝘢𝘵 𝘴𝘢𝘷𝘦𝘴 𝘵𝘩𝘦 𝘴𝘤𝘦𝘯𝘢𝘳𝘪𝘰 𝘧𝘳𝘰𝘮 𝘰𝘤𝘤𝘶𝘳𝘪𝘯𝘨
+𝘛𝘦𝘴𝘵𝘴 𝘣𝘺 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯 𝘤𝘢𝘵𝘢𝘨𝘰𝘳𝘺
+𝘓𝘦𝘢𝘥𝘦𝘳𝘣𝘰𝘢𝘳𝘥 𝘧𝘰𝘳 𝘴𝘱𝘦𝘦𝘥𝘳𝘶𝘯𝘴
+𝘓𝘦𝘢𝘥𝘦𝘳𝘣𝘰𝘢𝘳𝘥 𝘧𝘰𝘳 𝘴𝘱𝘦𝘦𝘥𝘳𝘶𝘯𝘴 𝘧𝘰𝘳 𝘦𝘢𝘤𝘩 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯 𝘤𝘢𝘵𝘢𝘨𝘰𝘳𝘺
+𝘓𝘦𝘢𝘥𝘦𝘳𝘣𝘰𝘢𝘳𝘥 𝘧𝘰𝘳 𝘴𝘱𝘦𝘦𝘥𝘳𝘶𝘯𝘴 𝘧𝘰𝘳 𝘵𝘩𝘢𝘵 𝘴𝘱𝘦𝘤𝘪𝘧𝘪𝘤 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯
+𝘋𝘪𝘢𝘨𝘳𝘢𝘮 𝘴𝘶𝘣𝘮𝘪𝘴𝘴𝘪𝘰𝘯 𝘧𝘶𝘯𝘤𝘵𝘪𝘰𝘯 𝘧𝘰𝘳 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯𝘴 𝘶𝘯𝘥𝘦𝘳 𝘢 "𝘩𝘪𝘯𝘵" 𝘴𝘱𝘰𝘪𝘭𝘦𝘳
+𝘕𝘮𝘦𝘮𝘰𝘯𝘪𝘤 𝘚𝘶𝘣𝘮𝘪𝘴𝘴𝘪𝘰𝘯 𝘧𝘶𝘯𝘤𝘵𝘪𝘰𝘯 𝘧𝘰𝘳 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯𝘴 𝘶𝘯𝘥𝘦𝘳 𝘢 "𝘩𝘪𝘯𝘵" 𝘴𝘱𝘰𝘪𝘭𝘦𝘳
+𝘋𝘢𝘪𝘭𝘺 𝘓𝘦𝘢𝘥𝘦𝘳𝘣𝘰𝘢𝘳𝘥
+𝘞𝘦𝘦𝘬𝘭𝘺 𝘓𝘦𝘢𝘥𝘦𝘳𝘣𝘰𝘢𝘳𝘥
+𝘮𝘰𝘯𝘵𝘩𝘭𝘺 𝘭𝘦𝘢𝘥𝘦𝘳𝘣𝘰𝘢𝘳𝘥
+𝘚𝘱𝘰𝘯𝘴𝘦𝘳𝘴𝘩𝘪𝘱 𝘣𝘺 𝘵𝘩𝘦 𝘪𝘯𝘥𝘶𝘴𝘵𝘳𝘺
+𝘈𝘯𝘥𝘳𝘰𝘪𝘥/𝘐𝘖𝘚 𝘢𝘱𝘱 (𝘱𝘳𝘦𝘧. 𝘧-𝘥𝘳𝘰𝘪𝘥)
+𝘈𝘶𝘥𝘪𝘰 𝘰𝘯𝘭𝘺 (𝘵𝘰 𝘩𝘦𝘭𝘱 𝘮𝘦𝘯𝘵𝘢𝘭 𝘤𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘰𝘯)
+𝘋𝘪𝘢𝘨𝘳𝘢𝘮 𝘰𝘯𝘭𝘺 (𝘵𝘰 𝘩𝘦𝘭𝘱 𝘣𝘶𝘪𝘭𝘥 𝘮𝘦𝘯𝘵𝘢𝘭 𝘤𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘰𝘯)
+𝘏𝘢𝘯𝘥 𝘎𝘦𝘴𝘵𝘪𝘤𝘶𝘭𝘢𝘵𝘪𝘰𝘯 𝘰𝘯𝘭𝘺 (𝘐 𝘩𝘢𝘷𝘦 𝘯𝘰 𝘪𝘥𝘦𝘢 𝘩𝘰𝘸 𝘵𝘩𝘢𝘵 𝘤𝘢𝘯 𝘣𝘦 𝘢𝘴𝘴𝘦𝘴𝘴𝘦𝘥)
+𝘈𝘴𝘴𝘦𝘴𝘴𝘮𝘦𝘯𝘵 𝘷𝘪𝘢 𝘳𝘦𝘢𝘥𝘪𝘯𝘨 𝘰𝘶𝘵 𝘵𝘩𝘦 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘢𝘯𝘴𝘸𝘦𝘳 𝘰𝘶𝘵𝘭𝘰𝘶𝘥
+𝘕𝘮𝘦𝘮𝘰𝘯𝘪𝘤 𝘚𝘪𝘯𝘨-𝘢-𝘭𝘰𝘯𝘨 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘢𝘯𝘴𝘸𝘦𝘳𝘴 𝘢𝘴𝘴𝘦𝘴𝘴𝘮𝘦𝘯𝘵
+𝘛𝘺𝘱𝘪𝘯𝘨 𝘰𝘶𝘵 𝘵𝘩𝘦 𝘦𝘹𝘢𝘤𝘵 𝘲𝘶𝘦𝘴𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘢𝘯𝘴𝘸𝘦𝘳 (𝘧𝘰𝘳 𝘴𝘦𝘳𝘪𝘰𝘶𝘴 𝘱𝘦𝘳𝘧𝘦𝘤𝘵𝘪𝘰𝘯𝘪𝘴𝘵𝘴)
+𝘛𝘩𝘦𝘳𝘢𝘱𝘶𝘵𝘪𝘤 𝘈𝘳𝘵𝘴 𝘢𝘯𝘥 𝘊𝘳𝘢𝘧𝘵𝘴 𝘴𝘶𝘨𝘨𝘦𝘴𝘵𝘪𝘰𝘯𝘴 𝘴𝘦𝘤𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘨𝘢𝘭𝘭𝘦𝘳𝘺 (𝘧𝘰𝘳 𝘵𝘩𝘰𝘴𝘦 𝘸𝘢𝘯𝘵𝘪𝘯𝘨 𝘵𝘰 𝘦𝘯𝘩𝘢𝘯𝘤𝘦 𝘮𝘦𝘯𝘵𝘢𝘭 𝘤𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘰𝘯𝘴)
 
-Direction I want to go with it:
-- Score out of how many completed on a counter
-- Stopwatch score
-- Timer for all questions
-- Timer for that individual question in test conditions
-- Stopwatch score for each question (with a toggle)
-- Competitive rounds completing the test (similar to typeracer.com but with stimmy sfx and graphics) (so you can get your friendship group to do the test together and work together as a team to complete the exam - good idea if you're ADHD and typically unmotivated by low-physical-intensity rote-learning tasks such as completing a test like this)
-- Stimmy sounds and graphics in general to gamify the experience
-- Sidebar with subway surfer footage
-- Minecraft interpretation of the test (very far in the future)
-- AI generated of absurd situations in YT shorts/reels/tikitokis for the most attention deficient people to learn the questions. (perhaps reccomended for the questions you got wrong).
-- Absurd scenarios analoguous to the questions involved where the right answer is what saves the scenario from occuring
-- Tests by question catagory
-- Leaderboard for speedruns
-- Leaderboard for speedruns for each question catagory
-- Leaderboard for speedruns for that specific question
-- Diagram submission function for questions under a "hint" spoiler
-- Nmemonic Submission function for questions under a "hint" spoiler
-- Daily Leaderboard
-- Weekly Leaderboard
-- monthly leaderboard
-- Sponsership by the industry
-- Android/IOS app (pref. f-droid)
-- Audio only (to help mental connection)
-- Diagram only (to help build mental connection)
-- Hand Gesticulation only (I have no idea how that can be assessed)
-- Assessment via reading out the question and answer outloud
-- Nmemonic Sing-a-long question and answers assessment
-- Typing out the exact question and answer (for serious perfectionists)
-- Theraputic Arts and Crafts suggestions section and gallery (for those wanting to enhance mental connections)
-  
+𝙃𝙞
+
+𝙏𝙝𝙞𝙨 𝙞𝙨 𝘾𝙄𝙏𝘽 𝙃𝙎&𝙀 𝙗𝙤𝙤𝙠 (𝘾𝙎𝘾𝙎 𝙘𝙖𝙧𝙙 𝙩𝙚𝙨𝙩) 𝙋𝘿𝙁 𝙥𝙖𝙧𝙨𝙚𝙙 𝙞𝙣𝙩𝙤 𝙖 𝙢𝙪𝙡𝙩𝙞𝙥𝙡𝙚 𝙘𝙝𝙤𝙞𝙘𝙚 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣 𝙦𝙪𝙞𝙯
+
+𝙏𝙝𝙚𝙧𝙚 𝙖𝙧𝙚 461 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣𝙨 𝙞𝙣 𝙩𝙝𝙞𝙨 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣 𝙗𝙖𝙣𝙠. 𝙄𝙛 𝙮𝙤𝙪 𝙢𝙖𝙣𝙖𝙜𝙚 𝙩𝙤 𝙜𝙚𝙩 45/50 𝙞𝙣 𝙩𝙝𝙚 𝙚𝙭𝙖𝙢 (90%) 𝙤𝙫𝙚𝙧 50𝙢𝙞𝙣𝙪𝙩𝙚𝙨 𝙩𝙝𝙚𝙣 𝙮𝙤𝙪 𝙘𝙖𝙣 𝙖𝙥𝙥𝙡𝙮 𝙛𝙤𝙧 𝘾𝙎𝘾𝙎 𝙘𝙖𝙧𝙙
+
+𝙄 𝙢𝙖𝙙𝙚 𝙩𝙝𝙞𝙨 𝙗𝙚𝙘𝙖𝙪𝙨𝙚 𝙞𝙩 𝙞𝙨 𝙖𝙣𝙤𝙩𝙝𝙚𝙧 𝙩𝙤𝙤𝙡 𝙩𝙤 𝙜𝙚𝙩 𝙖 𝙥𝙚𝙧𝙛𝙚𝙘𝙩 𝙜𝙧𝙖𝙙𝙚. 𝘼𝙨 𝙨𝙤𝙢𝙚𝙤𝙣𝙚 𝙙𝙞𝙖𝙜𝙣𝙤𝙨𝙚𝙙 𝙬𝙞𝙩𝙝 𝙙𝙮𝙨𝙡𝙚𝙭𝙞𝙖 𝙄 𝙖𝙢 𝙬𝙚𝙡𝙡 𝙥𝙧𝙖𝙘𝙩𝙞𝙨𝙚𝙙 𝙞𝙣 𝙪𝙨𝙞𝙣𝙜 𝙪𝙣𝙘𝙤𝙣𝙫𝙚𝙣𝙩𝙞𝙖𝙡 𝙢𝙚𝙩𝙝𝙤𝙙𝙨 𝙩𝙤 𝙢𝙚𝙢𝙤𝙧𝙞𝙨𝙚 𝙞𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 𝙛𝙤𝙧 𝙚𝙭𝙖𝙢𝙨. 𝙏𝙝𝙚 𝙛𝙪𝙣𝙘𝙩𝙞𝙤𝙣𝙨 𝙄 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙞𝙢𝙥𝙡𝙚𝙢𝙚𝙣𝙩 𝙗𝙚𝙡𝙤𝙬 𝙪𝙩𝙞𝙡𝙞𝙨𝙚 𝙨𝙤𝙢𝙚 𝙤𝙛 𝙩𝙝𝙤𝙨𝙚 𝙢𝙚𝙩𝙝𝙤𝙙𝙨 𝙩𝙤 𝙢𝙖𝙭𝙞𝙢𝙞𝙨𝙚 𝙢𝙚𝙢𝙤𝙧𝙞𝙨𝙖𝙩𝙞𝙤𝙣 𝙩𝙝𝙧𝙤𝙪𝙜𝙝 𝙩𝙝𝙚 𝙥𝙖𝙧𝙖𝙙𝙞𝙜𝙢 𝙤𝙛 𝙢𝙖𝙭𝙞𝙢𝙞𝙨𝙞𝙣𝙜 𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙞𝙤𝙣𝙨 𝙤𝙛 𝙙𝙞𝙛𝙛𝙚𝙧𝙚𝙣𝙩 𝙥𝙖𝙧𝙩𝙨 𝙤𝙛 𝙩𝙝𝙚 𝙗𝙧𝙖𝙞𝙣 𝙤𝙣 𝙤𝙣𝙚 𝙩𝙤𝙥𝙞𝙘 𝙖𝙧𝙚𝙖, 𝙖𝙣𝙙 𝙖𝙡𝙨𝙤 𝙜𝙖𝙢𝙚𝙞𝙛𝙮𝙞𝙣𝙜 𝙩𝙝𝙚 𝙥𝙧𝙤𝙘𝙚𝙨𝙨.
+
+𝙄 𝙝𝙤𝙥𝙚 𝙩𝙝𝙞𝙨 𝙞𝙨 𝙡𝙖𝙮𝙞𝙣𝙜 𝙩𝙝𝙚 𝙜𝙧𝙤𝙪𝙣𝙙𝙬𝙤𝙧𝙠 𝙛𝙤𝙧 𝙡𝙚𝙖𝙧𝙣𝙞𝙣𝙜 𝙚𝙨𝙨𝙚𝙣𝙩𝙞𝙖𝙡 𝙨𝙠𝙞𝙡𝙡𝙨 (𝙚.𝙜. 𝙣𝙤𝙩 𝙜𝙚𝙩𝙩𝙞𝙣𝙜 𝙮𝙤𝙪𝙧𝙨𝙚𝙡𝙛 𝙤𝙧 𝙤𝙩𝙝𝙚𝙧𝙨 𝙢𝙖𝙞𝙢𝙚𝙙 𝙤𝙧 𝙪𝙣𝙖𝙡𝙞𝙫𝙚𝙙) 𝙞𝙣 𝙖 𝙢𝙖𝙣𝙣𝙚𝙧 𝙬𝙝𝙞𝙘𝙝 𝙞𝙨 𝙛𝙤𝙧 𝙩𝙝𝙚 𝙢𝙖𝙣 𝙬𝙝𝙤 𝙨𝙞𝙩𝙨 𝙩𝙝𝙚𝙧𝙚 𝙖𝙣𝙙 𝙙𝙖𝙮𝙙𝙧𝙚𝙖𝙢𝙨 𝙬𝙝𝙚𝙣 𝙛𝙖𝙘𝙚𝙙 𝙬𝙞𝙩𝙝 𝙖 𝙥𝙚𝙣 𝙖𝙣𝙙 𝙝𝙞𝙜𝙝𝙡𝙞𝙜𝙝𝙩𝙚𝙧. 𝙋𝙚𝙧𝙝𝙖𝙥𝙨, 𝙖𝙩 𝙖 𝙨𝙩𝙧𝙚𝙩𝙘𝙝, 𝙢𝙖𝙠𝙞𝙣𝙜 𝙩𝙝𝙚 𝙥𝙤𝙨𝙨𝙞𝙗𝙞𝙡𝙞𝙩𝙮 𝙤𝙛 𝙨𝙤𝙢𝙚𝙤𝙣𝙚 𝙬𝙞𝙩𝙝 𝙩𝙝𝙚 𝙡𝙤𝙬𝙚𝙨𝙩 𝙖𝙗𝙞𝙡𝙞𝙩𝙮 𝙩𝙤 𝙡𝙚𝙖𝙧𝙣 𝙩𝙤 𝙤𝙗𝙩𝙖𝙞𝙣 𝙖 𝘾𝙎𝘾𝙎 𝙘𝙖𝙧𝙙 𝙩𝙝𝙧𝙤𝙪𝙜𝙝 𝙞𝙣𝙩𝙚𝙜𝙧𝙖𝙩𝙞𝙣𝙜 𝙚𝙫𝙚𝙧𝙮 𝙨𝙞𝙣𝙜𝙡𝙚 𝙧𝙚𝙜𝙞𝙤𝙣 𝙤𝙛 𝙩𝙝𝙚 𝙗𝙧𝙖𝙞𝙣 𝙞𝙣 𝙡𝙚𝙖𝙧𝙣𝙞𝙣𝙜.
+
+𝘿𝙞𝙧𝙚𝙘𝙩𝙞𝙤𝙣 𝙄 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙜𝙤 𝙬𝙞𝙩𝙝 𝙞𝙩:
+
+1. 𝙎𝙘𝙤𝙧𝙚 𝙤𝙪𝙩 𝙤𝙛 𝙝𝙤𝙬 𝙢𝙖𝙣𝙮 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙚𝙙 𝙤𝙣 𝙖 𝙘𝙤𝙪𝙣𝙩𝙚𝙧
+2. 𝙎𝙩𝙤𝙥𝙬𝙖𝙩𝙘𝙝 𝙨𝙘𝙤𝙧𝙚
+3. 𝙏𝙞𝙢𝙚𝙧 𝙛𝙤𝙧 𝙖𝙡𝙡 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣𝙨
+4. 𝙏𝙞𝙢𝙚𝙧 𝙛𝙤𝙧 𝙩𝙝𝙖𝙩 𝙞𝙣𝙙𝙞𝙫𝙞𝙙𝙪𝙖𝙡 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣 𝙞𝙣 𝙩𝙚𝙨𝙩 𝙘𝙤𝙣𝙙𝙞𝙩𝙞𝙤𝙣𝙨
+5. 𝙎𝙩𝙤𝙥𝙬𝙖𝙩𝙘𝙝 𝙨𝙘𝙤𝙧𝙚 𝙛𝙤𝙧 𝙚𝙖𝙘𝙝 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣 (𝙬𝙞𝙩𝙝 𝙖 𝙩𝙤𝙜𝙜𝙡𝙚)
+6. 𝘾𝙤𝙢𝙥𝙚𝙩𝙞𝙩𝙞𝙫𝙚 𝙧𝙤𝙪𝙣𝙙𝙨 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙞𝙣𝙜 𝙩𝙝𝙚 𝙩𝙚𝙨𝙩 (𝙨𝙞𝙢𝙞𝙡𝙖𝙧 𝙩𝙤 𝙩𝙮𝙥𝙚𝙧𝙖𝙘𝙚𝙧.𝙘𝙤𝙢 𝙗𝙪𝙩 𝙬𝙞𝙩𝙝 𝙨𝙩𝙞𝙢𝙢𝙮 𝙨𝙛𝙭 𝙖𝙣𝙙 𝙜𝙧𝙖𝙥𝙝𝙞𝙘𝙨) (𝙨𝙤 𝙮𝙤𝙪 𝙘𝙖𝙣 𝙜𝙚𝙩 𝙮𝙤𝙪𝙧 𝙛𝙧𝙞𝙚𝙣𝙙𝙨𝙝𝙞𝙥 𝙜𝙧𝙤𝙪𝙥 𝙩𝙤 𝙙𝙤 𝙩𝙝𝙚 𝙩𝙚𝙨𝙩 𝙩𝙤𝙜𝙚𝙩𝙝𝙚𝙧 𝙖𝙣𝙙 𝙬𝙤𝙧𝙠 𝙩𝙤𝙜𝙚𝙩𝙝𝙚𝙧 𝙖𝙨 𝙖 𝙩𝙚𝙖𝙢 𝙩𝙤 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙚 𝙩𝙝𝙚 𝙚𝙭𝙖𝙢 - 𝙜𝙤𝙤𝙙 𝙞𝙙𝙚𝙖 𝙞𝙛 𝙮𝙤𝙪'𝙧𝙚 𝘼𝘿𝙃𝘿 𝙖𝙣𝙙 𝙩𝙮𝙥𝙞𝙘𝙖𝙡𝙡𝙮 𝙪𝙣𝙢𝙤𝙩𝙞𝙫𝙖𝙩𝙚𝙙 𝙗𝙮 𝙡𝙤𝙬-𝙥𝙝𝙮𝙨𝙞𝙘𝙖𝙡-𝙞𝙣𝙩𝙚𝙣𝙨𝙞𝙩𝙮 𝙧𝙤𝙩𝙚-𝙡𝙚𝙖𝙧𝙣𝙞𝙣𝙜 𝙩𝙖𝙨𝙠𝙨 𝙨𝙪𝙘𝙝 𝙖𝙨 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙞𝙣𝙜 𝙖 𝙩𝙚𝙨𝙩 𝙡𝙞𝙠𝙚 𝙩𝙝𝙞𝙨)
+𝙎𝙩𝙞𝙢𝙢𝙮 𝙨𝙤𝙪𝙣𝙙𝙨 𝙖𝙣𝙙 𝙜𝙧𝙖𝙥𝙝𝙞𝙘𝙨 𝙞𝙣 𝙜𝙚𝙣𝙚𝙧𝙖𝙡 𝙩𝙤 𝙜𝙖𝙢𝙞𝙛𝙮 𝙩𝙝𝙚 𝙚𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙚
+7. 𝙎𝙞𝙙𝙚𝙗𝙖𝙧 𝙬𝙞𝙩𝙝 𝙨𝙪𝙗𝙬𝙖𝙮 𝙨𝙪𝙧𝙛𝙚𝙧 𝙛𝙤𝙤𝙩𝙖𝙜𝙚
+8. 𝙈𝙞𝙣𝙚𝙘𝙧𝙖𝙛𝙩 𝙞𝙣𝙩𝙚𝙧𝙥𝙧𝙚𝙩𝙖𝙩𝙞𝙤𝙣 𝙤𝙛 𝙩𝙝𝙚 𝙩𝙚𝙨𝙩 (𝙫𝙚𝙧𝙮 𝙛𝙖𝙧 𝙞𝙣 𝙩𝙝𝙚 𝙛𝙪𝙩𝙪𝙧𝙚)
+9. 𝘼𝙄 𝙜𝙚𝙣𝙚𝙧𝙖𝙩𝙚𝙙 𝙤𝙛 𝙖𝙗𝙨𝙪𝙧𝙙 𝙨𝙞𝙩𝙪𝙖𝙩𝙞𝙤𝙣𝙨 𝙞𝙣 𝙔𝙏 𝙨𝙝𝙤𝙧𝙩𝙨/𝙧𝙚𝙚𝙡𝙨/𝙩𝙞𝙠𝙞𝙩𝙤𝙠𝙞𝙨 𝙛𝙤𝙧 𝙩𝙝𝙚 𝙢𝙤𝙨𝙩 𝙖𝙩𝙩𝙚𝙣𝙩𝙞𝙤𝙣 𝙙𝙚𝙛𝙞𝙘𝙞𝙚𝙣𝙩 𝙥𝙚𝙤𝙥𝙡𝙚 𝙩𝙤 𝙡𝙚𝙖𝙧𝙣 𝙩𝙝𝙚 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣𝙨. (𝙥𝙚𝙧𝙝𝙖𝙥𝙨 𝙧𝙚𝙘𝙘𝙤𝙢𝙚𝙣𝙙𝙚𝙙 𝙛𝙤𝙧 𝙩𝙝𝙚 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣𝙨 𝙮𝙤𝙪 𝙜𝙤𝙩 𝙬𝙧𝙤𝙣𝙜).
+10. 𝘼𝙗𝙨𝙪𝙧𝙙 𝙨𝙘𝙚𝙣𝙖𝙧𝙞𝙤𝙨 𝙖𝙣𝙖𝙡𝙤𝙜𝙪𝙤𝙪𝙨 𝙩𝙤 𝙩𝙝𝙚 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣𝙨 𝙞𝙣𝙫𝙤𝙡𝙫𝙚𝙙 𝙬𝙝𝙚𝙧𝙚 𝙩𝙝𝙚 𝙧𝙞𝙜𝙝𝙩 𝙖𝙣𝙨𝙬𝙚𝙧 𝙞𝙨 𝙬𝙝𝙖𝙩 𝙨𝙖𝙫𝙚𝙨 𝙩𝙝𝙚 𝙨𝙘𝙚𝙣𝙖𝙧𝙞𝙤 𝙛𝙧𝙤𝙢 𝙤𝙘𝙘𝙪𝙧𝙞𝙣𝙜
+11. 𝙏𝙚𝙨𝙩𝙨 𝙗𝙮 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣 𝙘𝙖𝙩𝙖𝙜𝙤𝙧𝙮
+12. 𝙇𝙚𝙖𝙙𝙚𝙧𝙗𝙤𝙖𝙧𝙙 𝙛𝙤𝙧 𝙨𝙥𝙚𝙚𝙙𝙧𝙪𝙣𝙨
+13.𝙇𝙚𝙖𝙙𝙚𝙧𝙗𝙤𝙖𝙧𝙙 𝙛𝙤𝙧 𝙨𝙥𝙚𝙚𝙙𝙧𝙪𝙣𝙨 𝙛𝙤𝙧 𝙚𝙖𝙘𝙝 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣 𝙘𝙖𝙩𝙖𝙜𝙤𝙧𝙮
+14.𝙇𝙚𝙖𝙙𝙚𝙧𝙗𝙤𝙖𝙧𝙙 𝙛𝙤𝙧 𝙨𝙥𝙚𝙚𝙙𝙧𝙪𝙣𝙨 𝙛𝙤𝙧 𝙩𝙝𝙖𝙩 𝙨𝙥𝙚𝙘𝙞𝙛𝙞𝙘 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣
+15. 𝘿𝙞𝙖𝙜𝙧𝙖𝙢 𝙨𝙪𝙗𝙢𝙞𝙨𝙨𝙞𝙤𝙣 𝙛𝙪𝙣𝙘𝙩𝙞𝙤𝙣 𝙛𝙤𝙧 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣𝙨 𝙪𝙣𝙙𝙚𝙧 𝙖 "𝙝𝙞𝙣𝙩" 𝙨𝙥𝙤𝙞𝙡𝙚𝙧
+16.𝙉𝙢𝙚𝙢𝙤𝙣𝙞𝙘 𝙎𝙪𝙗𝙢𝙞𝙨𝙨𝙞𝙤𝙣 𝙛𝙪𝙣𝙘𝙩𝙞𝙤𝙣 𝙛𝙤𝙧 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣𝙨 𝙪𝙣𝙙𝙚𝙧 𝙖 "𝙝𝙞𝙣𝙩" 𝙨𝙥𝙤𝙞𝙡𝙚𝙧
+17. 𝘿𝙖𝙞𝙡𝙮 𝙇𝙚𝙖𝙙𝙚𝙧𝙗𝙤𝙖𝙧𝙙
+18.𝙒𝙚𝙚𝙠𝙡𝙮 𝙇𝙚𝙖𝙙𝙚𝙧𝙗𝙤𝙖𝙧𝙙
+19.𝙢𝙤𝙣𝙩𝙝𝙡𝙮 𝙡𝙚𝙖𝙙𝙚𝙧𝙗𝙤𝙖𝙧𝙙
+20.𝙎𝙥𝙤𝙣𝙨𝙚𝙧𝙨𝙝𝙞𝙥 𝙗𝙮 𝙩𝙝𝙚 𝙞𝙣𝙙𝙪𝙨𝙩𝙧𝙮
+21.𝘼𝙣𝙙𝙧𝙤𝙞𝙙/𝙄𝙊𝙎 𝙖𝙥𝙥 (𝙥𝙧𝙚𝙛. 𝙛-𝙙𝙧𝙤𝙞𝙙)
+22.𝘼𝙪𝙙𝙞𝙤 𝙤𝙣𝙡𝙮 (𝙩𝙤 𝙝𝙚𝙡𝙥 𝙢𝙚𝙣𝙩𝙖𝙡 𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙞𝙤𝙣)
+23.𝘿𝙞𝙖𝙜𝙧𝙖𝙢 𝙤𝙣𝙡𝙮 (𝙩𝙤 𝙝𝙚𝙡𝙥 𝙗𝙪𝙞𝙡𝙙 𝙢𝙚𝙣𝙩𝙖𝙡 𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙞𝙤𝙣)
+24.𝙃𝙖𝙣𝙙 𝙂𝙚𝙨𝙩𝙞𝙘𝙪𝙡𝙖𝙩𝙞𝙤𝙣 𝙤𝙣𝙡𝙮 (𝙄 𝙝𝙖𝙫𝙚 𝙣𝙤 𝙞𝙙𝙚𝙖 𝙝𝙤𝙬 𝙩𝙝𝙖𝙩 𝙘𝙖𝙣 𝙗𝙚 𝙖𝙨𝙨𝙚𝙨𝙨𝙚𝙙)
+25.𝘼𝙨𝙨𝙚𝙨𝙨𝙢𝙚𝙣𝙩 𝙫𝙞𝙖 𝙧𝙚𝙖𝙙𝙞𝙣𝙜 𝙤𝙪𝙩 𝙩𝙝𝙚 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣 𝙖𝙣𝙙 𝙖𝙣𝙨𝙬𝙚𝙧 𝙤𝙪𝙩𝙡𝙤𝙪𝙙
+26.𝙉𝙢𝙚𝙢𝙤𝙣𝙞𝙘 𝙎𝙞𝙣𝙜-𝙖-𝙡𝙤𝙣𝙜 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣 𝙖𝙣𝙙 𝙖𝙣𝙨𝙬𝙚𝙧𝙨 𝙖𝙨𝙨𝙚𝙨𝙨𝙢𝙚𝙣𝙩
+27.𝙏𝙮𝙥𝙞𝙣𝙜 𝙤𝙪𝙩 𝙩𝙝𝙚 𝙚𝙭𝙖𝙘𝙩 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣 𝙖𝙣𝙙 𝙖𝙣𝙨𝙬𝙚𝙧 (𝙛𝙤𝙧 𝙨𝙚𝙧𝙞𝙤𝙪𝙨 𝙥𝙚𝙧𝙛𝙚𝙘𝙩𝙞𝙤𝙣𝙞𝙨𝙩𝙨)
+28.𝙏𝙝𝙚𝙧𝙖𝙥𝙪𝙩𝙞𝙘 𝘼𝙧𝙩𝙨 𝙖𝙣𝙙 𝘾𝙧𝙖𝙛𝙩𝙨 𝙨𝙪𝙜𝙜𝙚𝙨𝙩𝙞𝙤𝙣𝙨 𝙨𝙚𝙘𝙩𝙞𝙤𝙣 𝙖𝙣𝙙 𝙜𝙖𝙡𝙡𝙚𝙧𝙮 (𝙛𝙤𝙧 𝙩𝙝𝙤𝙨𝙚 𝙬𝙖𝙣𝙩𝙞𝙣𝙜 𝙩𝙤 𝙚𝙣𝙝𝙖𝙣𝙘𝙚 𝙢𝙚𝙣𝙩𝙖𝙡 𝙘𝙤𝙣𝙣𝙚𝙘𝙩𝙞𝙤𝙣𝙨)
