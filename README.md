@@ -1,6 +1,10 @@
 ![blog - cscs ecs](https://github.com/user-attachments/assets/cd54fc5d-7ee7-44f4-bb0c-68384bb3e694)
 
 
+https://github.com/user-attachments/assets/da69f758-f387-4865-8bda-2606117c884e
+
+
+
 
 𝙃𝙞
 
