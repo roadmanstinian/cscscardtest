@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    .question-container {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+      background: #fff;
+    }
+    .question-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .options ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .options li {
+      margin-bottom: 5px;
+    }
+    .correct-answer {
+      margin-top: 10px;
+      color: green;
+      font-weight: bold;
+    }
+    .incorrect-answer {
+      margin-top: 10px;
+      color: red;
+      font-weight: bold;
+    }
+    .button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>HS&E Quiz Question Parser</h1>
+  <div id="start-menu" style="text-align:center; margin-bottom: 30px;">
+    <h2>Select Quiz Mode</h2>
+    <button onclick="startQuiz('random')" style="margin: 10px; padding: 10px 20px; font-size: 16px;">Start 5 Random Questions</button><br>
+    <button onclick="startQuiz('all')" style="margin: 10px; padding: 10px 20px; font-size: 16px;">Start All Questions</button>
+  </div>
+  <div id="quiz"></div>
+
+<script>
+// Hardcoded quiz content
+const xTxtContent = `...`; // <-- Your full question text here
+
+let currentQuestionIndex = 0;
+let userAnswers = [];
+let questions = [];
+
+function parseQuestions(text) {
+    const lines = text.split('\n');
+    let currentQuestion = { question: '', options: [], correctAnswer: '' };
+    let isCollectingQuestion = false;
+
+    for (let line of lines) {
+        line = line.trim();
+        if (line.startsWith('Question')) {
+            if (currentQuestion.question) {
+                questions.push(currentQuestion);
+                currentQuestion = { question: '', options: [], correctAnswer: '' };
+            }
+            currentQuestion.question = line.replace('Question', '').trim();
+            isCollectingQuestion = true;
+        } else if (isCollectingQuestion && /^[A-D]\)/.test(line)) {
+            isCollectingQuestion = false;
+            const optionText = line.replace(/^[A-D]\)\s*/, '').trim();
+            currentQuestion.options.push(optionText);
+        } else if (isCollectingQuestion && line.length > 0) {
+            currentQuestion.question += ' ' + line;
+        } else if (/^[A-D]\)/.test(line)) {
+            const optionText = line.replace(/^[A-D]\)\s*/, '').trim();
+            currentQuestion.options.push(optionText);
+        } else if (line.startsWith('The correct answer is ')) {
+            currentQuestion.correctAnswer = line.replace('The correct answer is ', '').trim().replace('.', '');
+            questions.push(currentQuestion);
+            currentQuestion = { question: '', options: [], correctAnswer: '' };
+        }
+    }
+
+    return questions;
+}
+
+function getRandomQuestions(arr, num) {
+    let shuffled = [...arr];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled.slice(0, num);
+}
+
+function startQuiz(mode) {
+    questions = parseQuestions(xTxtContent);
+    if (mode === 'random') {
+        questions = getRandomQuestions(questions, 5);
+    }
+    currentQuestionIndex = 0;
+    userAnswers = [];
+    document.getElementById('start-menu').style.display = 'none';
+    displayQuestion(currentQuestionIndex);
+}
+
+function displayQuestion(index) {
+    const quizDiv = document.getElementById('quiz');
+    quizDiv.innerHTML = "";
+    const question = questions[index];
+
+    const container = document.createElement('div');
+    container.className = 'question-container';
+
+    const title = document.createElement('div');
+    title.className = 'question-title';
+    title.textContent = `Question ${index + 1}: ${question.question}`;
+    container.appendChild(title);
+
+    const optionsList = document.createElement('ul');
+    optionsList.className = 'options';
+
+    question.options.forEach((option, i) => {
+        const li = document.createElement('li');
+        const input = document.createElement('input');
+        input.type = 'radio';
+        input.name = 'answer';
+        input.value = String.fromCharCode(65 + i);
+        input.id = `option-${i}`;
+
+        const label = document.createElement('label');
+        label.htmlFor = `option-${i}`;
+        label.textContent = `${String.fromCharCode(65 + i)}) ${option}`;
+
+        li.appendChild(input);
+        li.appendChild(label);
+        optionsList.appendChild(li);
+    });
+
+    container.appendChild(optionsList);
+
+    const button = document.createElement('button');
+    button.className = 'button';
+    button.textContent = 'Check Answer';
+    button.onclick = () => checkAnswer(index, question, button);
+    container.appendChild(button);
+
+    quizDiv.appendChild(container);
+}
+
+function checkAnswer(index, question, button) {
+    const selectedOption = document.querySelector(`input[name="answer"]:checked`);
+    if (!selectedOption) {
+        alert("Please select an answer.");
+        return;
+    }
+
+    const selectedLetter = selectedOption.value;
+    const isCorrect = selectedLetter === question.correctAnswer;
+    const result = document.createElement('div');
+    result.className = isCorrect ? 'correct-answer' : 'incorrect-answer';
+    result.textContent = isCorrect ? "✅ Correct!" : `❌ Incorrect! The correct answer is ${question.correctAnswer}.`;
+    button.style.display = 'none';
+
+    const nextButton = document.createElement('button');
+    nextButton.className = 'button';
+    nextButton.textContent = index < questions.length - 1 ? "Next Question" : "See Results";
+    nextButton.onclick = () => {
+        userAnswers.push({ selected: selectedLetter, correct: question.correctAnswer });
+        if (index < questions.length - 1) {
+            currentQuestionIndex++;
+            displayQuestion(currentQuestionIndex);
+        } else {
+            userAnswers.push({ selected: selectedLetter, correct: question.correctAnswer });
+            showResults();
+        }
+    };
+
+    const container = document.querySelector('.question-container');
+    container.appendChild(result);
+    container.appendChild(nextButton);
+}
+
+function showResults() {
+    const quizDiv = document.getElementById('quiz');
+    quizDiv.innerHTML = `<h2>Quiz Results</h2>`;
+    let score = 0;
+    userAnswers.forEach((ans, i) => {
+        const div = document.createElement('div');
+        if (ans.selected === ans.correct) score++;
+        div.textContent = `Question ${i + 1}: ${ans.selected} ${ans.selected === ans.correct ? '✅ Correct' : '❌ Incorrect (Correct: ' + ans.correct + ')'}`;
+        quizDiv.appendChild(div);
+    });
+
+    const summary = document.createElement('h3');
+    summary.textContent = `You scored ${score}/${userAnswers.length}`;
+    quizDiv.appendChild(summary);
+}
+</script>
+</body>
+</html>
